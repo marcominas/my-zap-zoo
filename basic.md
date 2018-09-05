@@ -83,7 +83,7 @@ Há muitos padrões de arquitetura e estilos, entre eles:
 * baseada em componentes
 * voltada a eventos (ou invocação implícita)
 * arquitetura de microserviços
-* aplicaçoes monolítica
+* aplicações monolíticas
 * ponto a ponto (P2P)
 * plug-ins
 * REST (Representational state transfer)
@@ -136,13 +136,28 @@ Veja: [Wikipedia](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)
 
 Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem como um todo não é formalmente especificada. O padrão de fato é a implementação CPython.
 
+Dica: conheça o [TheZenOfPython](https://wiki.python.org.br/TheZenOfPython)
+
+O que me encanta na filosifia do Python:
+
+* Simples é melhor que complexo.
+* Complexo é melhor que complicado.
+* Legibilidade faz diferença.
+* Diante da ambigüidade, recuse a tentação de adivinhar.
+* Se a implementação é difícil de explicar, é uma má idéia.
+* Se acessou o link acima clique em [TheZenOfPythonExplained](https://wiki.python.org.br/TheZenOfPythonExplained)
+
+Quer saber o que dá para fazer com o Python? Conheça [PIP](https://pypi.org/project/pip/) e veja as bibliotecas que estão disponíveis.
+
 ### NodeJS
+
+É o bom e velho Javascript em ação, é uma compilação empacotada da engine javascrit V8 da Google, uma camada de abstração de plataforma e uma biblioteca core. A ideia principal é uso não blocante, I/O orientada a evento, leve e eficiente em face a uma aplicação de uso de intensivo de dados que roda entre dispositivos distribuidos.
+
+Um recurso que precisamos conhecer muito bem é o NPM - Node Package Manager. O graal das bibliotecas que o desenvolvedor tem em suas mãos.
 
 ### Java
 
 ### Scala
-
-
 
 ## snipets
 
