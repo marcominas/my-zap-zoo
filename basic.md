@@ -8,13 +8,19 @@ Entenda que sua infraestrutura local é basicamente o seus "pertences" de uso pe
 
 Como é seu, você faz o que quer e, portanto pode ser que algo que funcionava de uma forma deixe de funcionar devido a mudanças no ambiente - por exemplo um aplicativo não deveria mas pode impactar a forma que outro aplicativo funciona.
 
+A frase `no meu note funciona` te lembra algo? Que tal produzir soluções que funcione em qualquer lugar?
+
 ### Conteineres
 
 Podemos pensar como um hotel que você vai usar - você tem que levar tudo que vai precisar e precisa se lembrar de que se deixar algo lá pode se perder. O que você grava em um conteiner, a partir do momento que você o perca, se perderá também. A ideia é poder repetir algo da mesma forma tantas vezes quanto se queira se que nada mude.
 
+O foco aqui é fazer de uma forma que você pode executar sempre que quiser e sempre do mesmo jeito. É necessário estar mais atento a configurações para que funcione em qualquer ambiente mas acredite, o esforço vale a pena.
+
 ### Na nuvem
 
 Podemos pensar como um hotel de luxo - você pede e lá está o que você precisa. Lá tem uma prateleira quase infinita de opções a sua disposição. Quantos processadores? Quanta memória? Que tipo de disco? É só escolher. Novamente, lembre-se que até você pode alugar por tempo indeterminado mas no final nada ali te pertence.
+
+Nesse cenário as regras de contêineres também se aplicam: configuração é muito importante - mais que isso temos que passar a pensar que a aplicação não tem um disco, processador ou qualquer outro recurso que duram de uma execução para outra. Portanto, se precisa armazenar algo para consulta futura, armazene em um lugar que não será destruido quando sua instância deixar de existir.
 
 #### AWS
 
@@ -67,9 +73,31 @@ Conclusão: cada tipo de infraestrutura é adequado a um uso, não tem uma infra
 
 ## Arquitetura
 
+A arquitetura de software de um sistema consiste na definição dos componentes de software, suas propriedades externas, e seus relacionamentos com outros softwares. O termo também se refere à documentação da arquitetura de software do sistema.
+
+### Estilos e padrões
+
+Há muitos padrões de arquitetura e estilos, entre eles:
+
+* cliente-servidor (2-camadas, 3-camadas, n-camadas)
+* baseada em componentes
+* voltada a eventos (ou invocação implícita)
+* arquitetura de microserviços
+* aplicaçoes monolítica
+* ponto a ponto (P2P)
+* plug-ins
+* REST (Representational state transfer)
+* orientada a serviços
+
 ### Camel
 
-TODO
+Apache Camel is an open source Java framework that focuses on making integration easier and more accessible to developers. It does this by providing:
+
+* concrete implementations of all the widely used Enterprise Integration Patterns (EIPs)
+* connectivity to a great variety of transports and APIs
+* easy to use Domain Specific Languages (DSLs) to wire EIPs and transports together
+
+See: [Stackoverflow](https://stackoverflow.com/questions/8845186/what-exactly-is-apache-camel)
 
 ## Ferramentas de desenvolvimento
 
@@ -95,6 +123,26 @@ TODO
 ### Testes integrados
 
 ## Liguagens e frameworks
+
+### Programação funcional
+
+Em ciência da computação, programação funcional é um paradigma de programação que trata a computação como uma avaliação de funções matemáticas e que evita estados ou dados mutáveis. Ela enfatiza a aplicação de funções, em contraste da programação imperativa, que enfatiza mudanças no estado do programa. 
+
+Veja: [Wikipedia](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_funcional)
+
+### .NET
+
+### Python
+
+Python é uma linguagem de programação de alto nível, interpretada, de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte. Apesar de várias partes da linguagem possuírem padrões e especificações formais, a linguagem como um todo não é formalmente especificada. O padrão de fato é a implementação CPython.
+
+### NodeJS
+
+### Java
+
+### Scala
+
+
 
 ## snipets
 
